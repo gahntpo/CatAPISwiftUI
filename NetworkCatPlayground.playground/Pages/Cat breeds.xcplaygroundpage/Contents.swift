@@ -66,12 +66,13 @@ struct BreedImage: Codable {
 }
 
 
-let url = URL(string: "https://api.thecatapi.com/v1/breeds?limit=1")!
+let url = URL(string: "https://api.thecatapi.com/v1/breeds?limit=9")!
 
 let task = URLSession.shared.dataTask(with: url) { data , response, error in
     
     let decoder = JSONDecoder()
     if let data = data {
+        
         
         do {
             let breeds = try decoder.decode([Breed].self, from: data)
@@ -87,3 +88,37 @@ task.resume()
 
 
 //: [Next](@next)
+
+
+
+
+
+
+
+
+
+
+
+
+// APIServices
+struct APIResources {
+    
+    enum EndPoint: String {
+        case  breeds, images, search
+    }
+
+    static var urlBreedComponents: URLComponents {
+        var urlComponents = URLComponents()
+        urlComponents.scheme = "https"
+        urlComponents.host = "api.thecatapi.com"
+        urlComponents.path = "/v1/" + EndPoint.breeds.rawValue + "/search"
+        urlComponents.queryItems = [URLQueryItem(name: "limit", value: "9"),
+                                    URLQueryItem(name: "q", value: "Aby")]
+        return urlComponents
+    }
+    
+
+}
+
+let comp = APIResources.urlBreedComponents
+print(comp.url)
