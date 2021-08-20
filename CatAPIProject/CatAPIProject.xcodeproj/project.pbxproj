@@ -12,6 +12,7 @@
 		175A4D2726CFE5F400C8E012 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 175A4D2626CFE5F400C8E012 /* home.png */; };
 		175A4D2926CFE60300C8E012 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 175A4D2826CFE60300C8E012 /* detail.png */; };
 		175A4D2B26CFE63800C8E012 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 175A4D2A26CFE63800C8E012 /* error.png */; };
+		175A4D2D26CFE7E000C8E012 /* mvvm.png in Resources */ = {isa = PBXBuildFile; fileRef = 175A4D2C26CFE7E000C8E012 /* mvvm.png */; };
 		177D6A3926CFD85500DF5D16 /* BreedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177D6A3826CFD85500DF5D16 /* BreedRow.swift */; };
 		177D6A3B26CFD86B00DF5D16 /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177D6A3A26CFD86B00DF5D16 /* BreedDetailView.swift */; };
 		17CA2ABD26CFC7EF00E2C48C /* CatAPIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CA2ABC26CFC7EF00E2C48C /* CatAPIProjectApp.swift */; };
@@ -54,6 +55,7 @@
 		175A4D2626CFE5F400C8E012 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		175A4D2826CFE60300C8E012 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
 		175A4D2A26CFE63800C8E012 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		175A4D2C26CFE7E000C8E012 /* mvvm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mvvm.png; sourceTree = "<group>"; };
 		177D6A3826CFD85500DF5D16 /* BreedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedRow.swift; sourceTree = "<group>"; };
 		177D6A3A26CFD86B00DF5D16 /* BreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailView.swift; sourceTree = "<group>"; };
 		17CA2AB926CFC7EF00E2C48C /* CatAPIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatAPIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 				175A4D2626CFE5F400C8E012 /* home.png */,
 				175A4D2826CFE60300C8E012 /* detail.png */,
 				175A4D2A26CFE63800C8E012 /* error.png */,
+				175A4D2C26CFE7E000C8E012 /* mvvm.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175A4D2D26CFE7E000C8E012 /* mvvm.png in Resources */,
 				175A4D2726CFE5F400C8E012 /* home.png in Resources */,
 				175A4D2B26CFE63800C8E012 /* error.png in Resources */,
 				17CA2AC426CFC7F200E2C48C /* Preview Assets.xcassets in Resources */,
