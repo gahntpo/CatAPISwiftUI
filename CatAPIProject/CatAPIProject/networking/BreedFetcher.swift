@@ -38,6 +38,7 @@ class BreedFetcher: ObservableObject {
                     // print(error.description)
                     print(error)
                 case .success(let breeds):
+                    print("--- sucess with \(breeds.count)")
                     self.breeds = breeds
                 }
             }
